@@ -11,7 +11,7 @@ class AjaxNotifyAction extends Action
 {
     public $generateInfo;
 
-    public function runWithParams($from)
+    public function run($from)
     {
         $time = time();
 
